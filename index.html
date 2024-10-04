@@ -15,19 +15,27 @@
   <body>
     <div class="container">
       <header>
-        <img src="assets/logo-newsletter.svg" alt="Logo" />
+        <img src="assets/logo-newsletter.svg" alt="Newsletter Logo" />
       </header>
       <main>
-        <h1>Join our newsletter</h1>
+        <h1>Join Our Newsletter</h1>
         <p>
-          Keep up with our latest collections, exclusive deals, and special
-          offers! We introduce a new collection every week, so stay tuned to
-          snag the hottest items just for you.
+          Stay updated with our latest collections, exclusive deals, and special
+          offers! We release a new collection every week, so don’t miss out on the hottest items curated just for you.
         </p>
         <form>
-          <input type="email" required placeholder="Enter your email address" />
-          <button>Subscribe now</button>
-          <p>Your email is 100% confidential and won’t send you any spam.</p>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email address"
+            aria-label="Email address"
+          />
+          <button type="submit">Subscribe Now</button>
+          <p class="confidentiality-note">
+            Your email is 100% confidential, and we won’t send you any spam.
+          </p>
         </form>
       </main>
     </div>
